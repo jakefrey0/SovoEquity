@@ -5,16 +5,12 @@
     <style>
       body {
         display: flex;
+        flex-direction: column; /* This stacks children vertically */
         justify-content: center;
         align-items: center;
         height: 100vh;
         margin: 0;
         font-family: Verdana, sans-serif;
-      }
-      .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
       }
       p {
         text-align: center;
@@ -26,9 +22,7 @@
     </style>
   </head>
   <body>
-    <div class="container">
-      <p class="large">Investor Relations</p>
-      <p>Ceo@SovoEquity.com</p>
-    </div>
+    <p class="large">Investor Relations</p>
+    <p>Ceo@SovoEquity.com</p>
   </body>
 </html>

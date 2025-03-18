@@ -1,7 +1,8 @@
-<a href="sovoequitycom>SovoEquity.com</a> - SovoEquity Proposed Inc <br />
+<html><a href="sovoequitycom>SovoEquity.com</a> - SovoEquity Proposed Inc <br />
 Operation of Location: Canada <br />
 Proposed Operations: <br />
- - Overseas Pharmaceutical Developments
- - Overseas Gentrification Projects
- - Quantitative and qualitative investments
- - Land and property investments
+ - Overseas Pharmaceutical Developments Subsidiary <br />
+ - Overseas Gentrification Subsidiary <br />
+ - Software Development <br />
+ - Quantitative and qualitative based investments <br />
+ - Land and property investments <br />

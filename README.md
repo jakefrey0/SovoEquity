@@ -6,3 +6,4 @@ Proposed Operations: <br />
  - Software Development <br />
  - Quantitative and qualitative based investments <br />
  - Land and property investments <br />
+       </html>

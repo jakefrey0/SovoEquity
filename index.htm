@@ -1,38 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
     <title>SovoEquity Inc.</title>
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-    <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="Expires" content="0" />
     <style>
       html, body {
         height: 100%;
         margin: 0;
       }
-      .container {
+      body {
         display: flex;
-        flex-direction: column; /* Stack items vertically */
         justify-content: center;
         align-items: center;
-        height: 100%;
       }
-      p {
-        margin: 0;
+      .container {
         text-align: center;
+        /* Shift the container slightly upward */
+        transform: translateY(-10%);
       }
       .large {
-        font-size: 16px;
+        font-size: 32px; /* adjust as needed */
+        margin-bottom: 10px;
       }
       .small {
-        font-size: 12.5px;
+        font-size: 24px; /* adjust as needed */
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <p class="large">Investor Relations</p>
-      <p class="small">Ceo@SovoEquity.com</p>
+      <div class="large">Investor Relations</div>
+      <div class="small">ceo@sovoequity.com</div>
     </div>
   </body>
 </html>

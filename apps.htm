@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>SovoEquity Apps</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Verdana, sans-serif;
+      background: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .app-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      max-width: 800px;
+      width: 100%;
+    }
+    .app-bubble {
+      background: #3a86ff;
+      color: white;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      user-select: none;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: background 0.3s, transform 0.2s;
+      text-align: center;
+      padding: 10px;
+      text-decoration: none;
+    }
+    .app-bubble:hover {
+      background: #2659b8;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="app-container" id="appContainer">
+    <!-- App bubbles get added here -->
+  </div>
+
+  <script>
+    // List of apps you want to show (name and link)
+    const apps = [
+      { name: "Edge", url: "https://edge.sovoequity.com" },
+      { name: "Portfolio Manager", url: "portfolio.htm" },
+      { name: "Market Watch", url: "marketwatch.htm" },
+      // Add more apps here
+    ];
+
+    const container = document.getElementById("appContainer");
+
+    apps.forEach(app => {
+      const a = document.createElement("a");
+      a.className = "app-bubble";
+      a.href = app.url;
+      a.target = "_blank";  // open in new tab
+      a.rel = "noopener noreferrer";
+      a.textContent = app.name;
+      container.appendChild(a);
+    });
+  </script>
+</body>
+</html>
 
